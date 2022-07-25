@@ -1,0 +1,33 @@
+.create {
+    display: flex;
+    justify-content: flex-end;
+    width: 1600px;
+    margin: 0 auto;
+}
+.createForm {
+    width: 800px;
+}
+.createForm h1 {
+    margin-left: 238px;
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #2B3844;
+}
+
+.logIn {
+    margin-left: 291px;
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2B3844;
+}
+.logIn a {
+    color: #5382E7;
+    text-decoration: none;
+}
+.img {
+    width: 800px;
+}
