@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
+
+import LoginForm from '../../components/loginForm/loginForm';
+
 import Style from './singIn.module.css'
 import logo from '../../img/img.png'
-import { NavLink } from "react-router-dom";
-import LoginForm from "../../components/loginForm/loginForm";
-
 
 const SingIn = () => {
     return (

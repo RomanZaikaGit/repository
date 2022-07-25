@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react';
+import {NavLink} from 'react-router-dom';
+
 import Style from './loginForm.module.css'
-import {NavLink} from "react-router-dom";
 
-
-
-const LoginForm = () => {
-    return(
-        <form className={Style.form}>
+const LoginForm = () =>  <form className={Style.form}>
             <label htmlFor='email'>Email</label>
             <input type='email' placeholder='Email'/>
             <label htmlFor='password'>Password</label>
@@ -15,6 +12,6 @@ const LoginForm = () => {
             <NavLink to='/'>Forgot password?</NavLink>
             <NavLink to='/registration'>Registration</NavLink>
         </form>
-    )
-}
+
+
 export default LoginForm

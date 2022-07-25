@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
+
 import Style from './registrationForm.module.css'
 
 
 
-const RegistrationForm = () => {
-    return(
-        <form className={Style.formRegistration}>
+const RegistrationForm = () =>
+    <form className={Style.formRegistration}>
             <div className={Style.formName}>
                 <div>
                     <label htmlFor='firstName'>First name</label>
@@ -26,6 +26,6 @@ const RegistrationForm = () => {
             <input type='password' placeholder='Repeat password'/>
             <button>Create account</button>
         </form>
-    )
-}
+
+
 export default RegistrationForm
