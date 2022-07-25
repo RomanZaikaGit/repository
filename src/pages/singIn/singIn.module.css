@@ -1,0 +1,60 @@
+.loginBlock {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 1600px;
+    height: 100vh;
+}
+.loginForm {
+    width: 800px;
+}
+.loginForm h1 {
+    width: 120px;
+    height: 48px;
+    margin-left: 340px;
+    margin-top: 255px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin-left: 210px;
+}
+.form label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #2B3844;
+    margin-bottom: 8px;
+}
+.form input {
+    width: 380px;
+    height: 38px;
+    margin-bottom: 20px;
+
+    opacity: 0.3;
+    border: 1px solid #354352;
+    border-radius: 3px;
+}
+.form button {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 20px;
+    width: 388px;
+    height: 48px;
+    border: none;
+    background: #5382E7;
+    border-radius: 3px;
+}
+.form a {
+    margin: 32px  auto;
+    text-decoration: none;
+    color: #5382E7;
+    font-size: 14px;
+    line-height: 14px;
+}
+.img {
+    width: 800px;
+}
