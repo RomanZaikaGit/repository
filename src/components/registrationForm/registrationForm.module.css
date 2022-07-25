@@ -1,0 +1,42 @@
+.formRegistration {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-left: 210px;
+}
+.formRegistration input {
+    width: 352px;
+    height: 38px;
+    margin-bottom: 24px;
+    opacity: 0.3;
+    border: 1px solid #354352;
+    border-radius: 3px;
+}
+.formRegistration label {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #2B3844;
+
+}
+.formRegistration button {
+    width: 360px;
+    height: 52px;
+    background: #5382E7;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+}
+.formName {
+    display: flex;
+    justify-content: space-between;
+}
+.formName label {
+    display: block;
+    margin-bottom: 8px;
+}
+.formName input {
+    width: 168px;
+    height: 38px;
+}
